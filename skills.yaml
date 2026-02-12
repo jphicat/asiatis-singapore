@@ -1,0 +1,7 @@
+skills:
+  timezone-helper:
+    description: Manage SG/FR/CA timezone conversions for client communications
+    triggers: [timezone, hours, availability]
+  email-intent-guide:
+    description: Documentary guide for handling B2B email inquiries and quotes
+    triggers: [email, inquiry, quote, rfq]

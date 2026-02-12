@@ -1,0 +1,26 @@
+{
+    "priority_rules": [
+        {
+            "type": "Medical",
+            "priority": "HIGH",
+            "auto_assign": true
+        },
+        {
+            "type": "Technical",
+            "priority": "HIGH",
+            "auto_assign": true
+        }
+    ],
+    "filter_rules": [
+        {
+            "type": "Personal documents",
+            "action": "DECLINE_POLITELY",
+            "reason": "B2B Only"
+        },
+        {
+            "type": "Certified translation (generic)",
+            "action": "REDIRECT",
+            "target": "partner_referral"
+        }
+    ]
+}
