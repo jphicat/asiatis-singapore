@@ -4,6 +4,7 @@ import ClientLogos from '@/components/home/ClientLogos';
 import ExpertiseSection from '@/components/home/ExpertiseSection';
 import LanguagesSection from '@/components/home/LanguagesSection';
 import WhySection from '@/components/home/WhySection';
+import TestimonialsSection from '@/components/home/TestimonialsSection';
 import ContactCTA from '@/components/home/ContactCTA';
 
 export async function generateMetadata(props: any) {
@@ -41,6 +42,7 @@ export default async function HomePage(props: any) {
       <ExpertiseSection />
       <LanguagesSection />
       <WhySection />
+      <TestimonialsSection />
       <ContactCTA />
     </>
   );
