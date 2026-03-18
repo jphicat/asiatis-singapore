@@ -1,0 +1,20 @@
+import React from 'react';
+
+interface LanguageHeroProps {
+  title: string;
+  intro: string;
+}
+
+export function LanguageHero({ title, intro }: LanguageHeroProps) {
+  return (
+    <section className="relative bg-[#4B1495] pt-32 pb-20 text-white overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-r from-[#4B1495] to-violet-900 opacity-90"></div>
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="max-w-3xl">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">{title}</h1>
+          <p className="text-lg md:text-xl text-violet-100 leading-relaxed whitespace-pre-line">{intro}</p>
+        </div>
+      </div>
+    </section>
+  );
+}
